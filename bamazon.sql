@@ -16,7 +16,7 @@ CREATE TABLE products (
     
     product_name VARCHAR (30) NOT NULL,
 
-    product_description VARCHAR (30) NULL,  -- try to put empty strings into the description if there 
+    product_description VARCHAR (30) NULL,  
 
     department_name VARCHAR (30) NOT NULL,
 
@@ -24,7 +24,7 @@ CREATE TABLE products (
 
     stock_quantity INTEGER (10) NOT NULL,
 
-    PRIMARY KEY (item_id)  -- if you wanted to create multiple tables you can link the two ids together --
+    PRIMARY KEY (item_id) 
 
 );
 
@@ -37,7 +37,7 @@ INSERT INTO products (product_name, product_description, department_name, price,
 VALUES ("Kibble Nibbles: Peanut Butter and Bacon Bits", "Treats for dogs", "Pet Supplies", 6.99, 27), 
 ("Air Gordans XXIV Basketball Shoes", "Latest edition of NBA Superstar Gordon Lightfoot's signature line of basketball shoes", "Clothing", 129.99, 20), 
 ("Levine Jeans", "Classic jeans for men and women", "Clothing", 23.99, 201), 
-("Baleigh BMX Bike", "Dirt racing 10-gear bike", "Sports", 249.99, 8), 
+("Baleigh BMX Bike", "Dirt-racing 10-gear bike", "Sports", 249.99, 8), 
 ("Whilmerson Volleyball", "Official regulation volleyball", "Sports", 21.99, 56), 
 ("Hansel's 6-Pack Brief Underwear", "Underwear for men and women", "Clothing", 12.99, 100), 
 ("To Grill a Mockingbird (Paperback Book)", "Survival Cookbook by Harper Lee Jr.", "Books", 8.99, 300),

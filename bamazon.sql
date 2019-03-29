@@ -20,7 +20,7 @@ CREATE TABLE products (
 
     department_name VARCHAR (30) NOT NULL,
 
-    price NUMBER (10, 2) NOT NULL,
+    price DECIMAL (10, 2) NOT NULL,
 
     stock_quantity INTEGER (10) NOT NULL,
 

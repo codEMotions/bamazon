@@ -1,4 +1,4 @@
-//requiring the mysql npm module
+//requiring the mysql and inquirer npm module
 
 const mysql = require("mysql");
 const inquirer = require("inquirer");
